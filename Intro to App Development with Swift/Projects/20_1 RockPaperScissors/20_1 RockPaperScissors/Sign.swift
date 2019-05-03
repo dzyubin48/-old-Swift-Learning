@@ -43,17 +43,24 @@ enum Sign {
 
     // Сравнение со знаком оппонента
     func compareSigns(botSign: Sign) -> GameState {
-        if (self == .rock || botSign == .paper) &&
-           (self == .paper || botSign == .scissors) &&
-           (self == .scissors || botSign == .rock) {
-            return .lose
-        } else if
-            (self == .paper || botSign == .rock) &&
-            (self == .scissors || botSign == .paper) &&
-            (self == .rock || botSign == .scissors) {
-            return .win
-        } else {
+        if self == botSign {
             return .draw
         }
+
+        switch self {
+        case .rock:
+            if botSign == .scissors {
+                return .win
+            }
+        case .paper:
+            if botSign == .rock {
+                return .win
+            }
+        case .scissors:
+            if botSign == .paper {
+                return .win
+            }
+        }
+        return .lose
     }
 }

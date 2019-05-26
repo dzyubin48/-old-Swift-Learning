@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="C2e-fG-GXF">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="C2e-fG-GXF">
                                 <rect key="frame" x="60" y="207" width="255" height="253"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="2jk-gS-mvT">
                                         <rect key="frame" x="2.5" y="0.0" width="250.5" height="121"/>
@@ -47,7 +46,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <state key="normal" title="👊"/>
                                                 <connections>
-                                                    <action selector="playerSelectSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yo7-Qg-ng7"/>
+                                                    <action selector="rockSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gKF-Qq-Fk1"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhB-Ks-MPc">
@@ -55,7 +54,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <state key="normal" title="✌️"/>
                                                 <connections>
-                                                    <action selector="playerSelectSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Ef-MT-0Jr"/>
+                                                    <action selector="scissorsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dEF-VI-QoZ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cF-zK-aDc">
@@ -63,7 +62,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <state key="normal" title="✋"/>
                                                 <connections>
-                                                    <action selector="playerSelectSign:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pek-DG-IAX"/>
+                                                    <action selector="paperSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3qa-7b-ejA"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -80,15 +79,19 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="C2e-fG-GXF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="et8-YX-gJ5"/>
+                            <constraint firstItem="C2e-fG-GXF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xna-KI-lDN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="botSignLabel" destination="aN1-c9-0nW" id="L5r-6M-4zS"/>
                         <outlet property="gameStateLabel" destination="3tJ-lZ-Eib" id="Xkd-Uk-N0m"/>
-                        <outlet property="paperButton" destination="RhB-Ks-MPc" id="hZu-hK-Pe2"/>
+                        <outlet property="paperButton" destination="2cF-zK-aDc" id="VKP-EU-77n"/>
                         <outlet property="playAgainButton" destination="QR1-Yx-lJf" id="KIB-Sj-TQU"/>
                         <outlet property="rockButton" destination="Uba-x9-OBD" id="xRG-ki-JAY"/>
-                        <outlet property="scissorsButton" destination="2cF-zK-aDc" id="zMr-wS-xNv"/>
+                        <outlet property="scissorsButton" destination="RhB-Ks-MPc" id="lST-u4-eZK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -12,33 +12,87 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateUI(gamestate: .start)
     }
 
+    // Аутлеты всех элементов на экране
     @IBOutlet weak var botSignLabel: UILabel!
     @IBOutlet weak var gameStateLabel: UILabel!
     @IBOutlet weak var rockButton: UIButton!
-    @IBOutlet weak var paperButton: UIButton!
     @IBOutlet weak var scissorsButton: UIButton!
     @IBOutlet weak var playAgainButton: UIButton!
+    @IBOutlet weak var paperButton: UIButton!
 
-    @IBAction func playerSelectSign(_ sender: Any) {
-    }
+    // Перезапуск игры при нажатии на Играть снова
     @IBAction func restartGame(_ sender: Any) {
         updateUI(gamestate: .start)
     }
 
+    // Запуск игры с выбранным Камнем
+    @IBAction func rockSignPressed(_ sender: Any) {
+        let newState = play(playerSign: .rock)
+        updateUI(gamestate: newState)
+    }
+
+    // Запуск игры с выбранными Ножницами
+    @IBAction func scissorsSignPressed(_ sender: Any) {
+        let newState = play(playerSign: .scissors)
+        updateUI(gamestate: newState)
+    }
+
+    // Запуск игры с выбранной Бумагой
+    @IBAction func paperSignPressed(_ sender: Any) {
+        let newState = play(playerSign: .paper)
+        updateUI(gamestate: newState)
+    }
+
+    // Обновление интерфейса при различных состояниях игры
     func updateUI(gamestate: GameState) {
         switch gamestate {
         case .start:
-            gameStateLabel.value(forKey: "Камень, Ножницы, Бумага?")
+            gameStateLabel.text = gamestate.status
             playAgainButton.isHidden = true
+            botSignLabel.text = "🤖"
+            rockButton.isHidden = false
+            paperButton.isHidden = false
+            scissorsButton.isHidden = false
+            rockButton.isEnabled = true
+            scissorsButton.isEnabled = true
+            paperButton.isEnabled = true
         case .win:
-            gameStateLabel.value(forKey: "Вы победили! =)")
+            gameStateLabel.text = gamestate.status
         case .lose:
-            gameStateLabel.value(forKey: "Вы проиграли! =(")
+            gameStateLabel.text = gamestate.status
         case .draw:
-            gameStateLabel.value(forKey: "Ничья! =/")
+            gameStateLabel.text = gamestate.status
         }
+    }
+
+    // Сама 'Игра' и скрытие лишних кнопок на экране
+    func play(playerSign: Sign) -> GameState {
+        let botSign = randomSign()
+        botSignLabel.text = botSign.emoji
+        let state = playerSign.compareSigns(botSign: botSign)
+
+        rockButton.isEnabled = false
+        scissorsButton.isEnabled = false
+        paperButton.isEnabled = false
+
+        switch playerSign {
+        case .paper:
+            rockButton.isHidden = true
+            scissorsButton.isHidden = true
+        case .rock:
+            paperButton.isHidden = true
+            scissorsButton.isHidden = true
+        case .scissors:
+            rockButton.isHidden = true
+            paperButton.isHidden = true
+        }
+
+        playAgainButton.isHidden = false
+
+        return state
     }
 }
 

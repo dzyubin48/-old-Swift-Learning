@@ -11,4 +11,17 @@ enum GameState {
     case win
     case lose
     case draw
+
+    var status: String {
+        switch self {
+        case .start:
+            return "Камень, Ножницы, Бумага?"
+        case .win:
+            return "Вы победили! =)"
+        case .lose:
+            return "Вы проиграли! =("
+        case .draw:
+            return "Ничья! =/"
+        }
+    }
 }

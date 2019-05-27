@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        _setAccessibilityIdentifiers()
         updateUI(gamestate: .start)
     }
 
@@ -93,6 +94,15 @@ class ViewController: UIViewController {
         playAgainButton.isHidden = false
 
         return state
+    }
+
+    private func _setAccessibilityIdentifiers() {
+        botSignLabel.accessibilityIdentifier = "botSignLabel"
+        gameStateLabel.accessibilityIdentifier = "gameStateLabel"
+        rockButton.accessibilityIdentifier = "rockButton"
+        scissorsButton.accessibilityIdentifier = "scissorsButton"
+        paperButton.accessibilityIdentifier = "paperButton"
+        playAgainButton.accessibilityIdentifier = "playAgainButton"
     }
 }
 

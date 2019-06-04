@@ -1,4 +1,4 @@
-import Foundation
+import Cocoa
 
 // 1. Объявите две пустые целочисленные переменные типов Int8 и Uint8
 //

@@ -8,7 +8,6 @@
  - If you’re using code that was written by other people, the console is where you’ll see their direct messages about their code. For example, try uncommenting the line below and checking the console output:
  */
 theAnswer
-
 /*:
  That was a lot of console noise! Remember, you can either drag the top bar up to make the console area bigger, or scroll vertically through the text if it doesn’t all fit.
  

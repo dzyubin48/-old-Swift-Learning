@@ -18,14 +18,6 @@
 */
 startBot()
 startRecording()
-
-
-
-
-
-
-
-
 //: Continue with your creativity.
 //:
 //:[Previous](@previous)  |  page 10 of 13  |  [Next: Boogie Workshop](@next)

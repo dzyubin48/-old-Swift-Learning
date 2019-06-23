@@ -12,8 +12,6 @@
 24 / 8
 //: For grouping, use parenthesis `( )` :
 (300 + 500 + 400) / 3
-
-// My code
 4 + 8 + 15 + 16 + 23 + 42
 4 * 8 + 15 - (16 / 4) * 23 - 42
 //: - experiment:\

@@ -20,7 +20,6 @@ let rectangle = Rectangle(width: 10, height: 10)
 let anotherRectangle = Rectangle(width: 10, height: 30)
 
 isRectangle(rectangle, biggerThan: anotherRectangle)
-
 //: This works, but there are a couple of issues:
 //:
 //: - The two arguments to the function are a lot of code to read in one line, which makes it harder to understand.

@@ -39,7 +39,6 @@ let space = " "
 
 var statement = ""
 
-// My code
 statement += word1
 statement += space
 statement += word2
@@ -47,5 +46,4 @@ statement += space
 statement += word3
 statement += space
 statement += word4
-
 //: [Previous](@previous)  |  page 5 of 13  |  [Next: Confusing Changes](@next)

@@ -7,7 +7,6 @@ enum Target {
     case red, green, blue, gold
 }
 //: This function returns a score given a particular target:
-// My code
 func score(target: Target) -> Int {
     switch target {
     case .red:
@@ -25,7 +24,6 @@ score(target: .red)    // This should be 10
 score(target: .green)  // This should be 15
 score(target: .blue)   // This should be 25
 score(target: .gold)   // This should be 50
-
 /*:
  
  _Copyright © 2017 Apple Inc._

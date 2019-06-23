@@ -8,7 +8,6 @@
  - callout(Exercise):
  Create an empty array to hold song titles as strings, and use the `append` method to add three or four songs one at a time.
  */
-// My code
 var songTitles = [String]()
 songTitles.append("We will rock you")
 songTitles.append("What the world come to")
@@ -29,7 +28,6 @@ print(songTitles)
 for song in songTitles {
     print("And the next song is \(song)")
 }
-
 /*:
  - callout(Exercise):
  After the loop has called everyone up to sing, use the `removeAll` method on the song list to clear out all the past songs.

@@ -20,7 +20,6 @@ let 🐟 = 1
 let totalNumberOfAnimals = 🐶 + 🐱 + 🐹 + 🐢 + 🐍 + 🐷 + 🐟
 
 let totalNumberOfMammals = 🐶 + 🐱 + 🐹 + 🐷
-
 //: - callout(Why not?): Why not use emoji for names? One reason is that it can be difficult to tell emoji apart at a glance. Another is that there might not be an emoji for every case. What if someone brought a pet tarantula to the pet show? There’s no emoji to match. Using words is a lot more flexible and reliable.
 //:
 //: Next, learn the official names for the work you’ve been doing.

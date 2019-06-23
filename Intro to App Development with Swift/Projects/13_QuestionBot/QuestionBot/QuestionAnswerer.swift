@@ -1,5 +1,3 @@
-// My code
-
 struct MyQuestionAnswerer {
     func responseTo(question: String) -> String {
 

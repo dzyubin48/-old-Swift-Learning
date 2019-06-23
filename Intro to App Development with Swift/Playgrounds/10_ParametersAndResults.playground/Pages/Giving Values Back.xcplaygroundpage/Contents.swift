@@ -13,7 +13,6 @@
  \
  Remember that `->` is used to say that a function returns a value.
 */
-// My code
 func favoriteThing(categoryOfThing: String, favorite: String) -> String {
     return "My favorite \(categoryOfThing) is \(favorite)"
 }
@@ -21,14 +20,11 @@ func favoriteThing(categoryOfThing: String, favorite: String) -> String {
 let sentenceFood = favoriteThing(categoryOfThing: "food", favorite: "pizza")
 
 //: - experiment: Call your new function a few times with some different categories, assigning each result to a different constant. Why not try categories like food, movie, school subject or band?
-// My code
 let sentenceMovie = favoriteThing(categoryOfThing: "movie", favorite: "Avengers")
 let sentenceDrink = favoriteThing(categoryOfThing: "drink", favorite: "beer")
 //: - callout(Exercise): Now that you have your results, you can use string interpolation to combine them into a self-introduction. Yours might look something like this:\
 //: `"Hello, my name is Euna. \(favoriteFood) \(favoriteVideoStar) ..."`
-// My code
 print("Hello, my name is Daniel! \(sentenceFood), \(sentenceDrink) and \(sentenceMovie)")
-
 //: Next, learn when to use parameters and return values and when not to.
 //:
 //: [Previous](@previous)  |  page 7 of 17  |  [Next: Kinds of Function](@next)

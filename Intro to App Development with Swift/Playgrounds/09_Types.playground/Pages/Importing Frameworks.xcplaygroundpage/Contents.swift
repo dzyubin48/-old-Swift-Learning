@@ -22,8 +22,6 @@ let today = Date()
   `let someDate = Date() + 10`\
  How does the value of `someDate` change when you add big numbers? What about small numbers? How does it change if you add `525600`? What if you subtract?
 */
-
-// My code
 let someDate = Date() + 525600
 /*:
  Think through what you’ve learned on the next page.

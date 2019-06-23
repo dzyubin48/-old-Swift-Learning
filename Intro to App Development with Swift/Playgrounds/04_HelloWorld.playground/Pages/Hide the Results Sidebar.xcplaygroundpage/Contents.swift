@@ -4,7 +4,6 @@
 Remember the trusty results sidebar and how it automatically shows the answers to any calculations you enter? 👉 */
 let sum = 1 + 2 + 11 + 4 + 23857
 let product = sum * sum
-
 /*: 
  To continue in the spirit of old-time programming, you’ll need to hide that sidebar. Mouse over its left edge slowly, until the cursor turns into a double-headed arrow:
  

@@ -27,9 +27,7 @@ func hello(name: String) {
 */
 hello(name: "Maria")
 hello(name: "Vikram")
-
 //: - experiment: Call the function a few more times, passing in different arguments. Notice that the autocompletion pop up tells you that the function has a `String` parameter called `name`.
-// My code
 hello(name: "Daniel")
 hello(name: "Anna")
 //: Next get some practice by making your own function that takes an argument.

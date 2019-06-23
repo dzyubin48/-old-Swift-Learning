@@ -16,7 +16,6 @@ func printHello(to: String) {
 }
 printHello(to: "Maya")
 
-// My code
 func getTheFirstLetter(of: String) {
     print("Get the first letter of " + of)
 }

@@ -16,10 +16,8 @@
  - callout(Experiment: Hello, world):
  Type the `print` command as in the example code above, with your own “Hello, world!” greeting inside the parentheses.
  */
-// My code
 // Add your greeting just below this line, and watch it appear in the console:
 print("Hello, world!")
-
 /*:
  Congratulations and welcome! It may seem like a lot of fuss over a single line of code, but you’re now part of a long programming tradition. Feel free to capture the moment with a selfie of yourself and the screen.
 */

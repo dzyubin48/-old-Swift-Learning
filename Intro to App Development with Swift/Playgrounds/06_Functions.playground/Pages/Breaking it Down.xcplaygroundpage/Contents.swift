@@ -28,7 +28,6 @@ merrilyDream()
 breatheBetweenVerses()
 rowTheBoat()
 //: - callout(Exercise): Write a function called `crocodileScream()` for the second two lines of the second verse, and call it to complete the song in the console.
-// My code
 func crocodileScream() {
     print("If you see a crocodile")
     print("Don't forget to scream")
@@ -36,7 +35,6 @@ func crocodileScream() {
 
 crocodileScream()
 breatheBetweenVerses()
-
 //: Next, learn about making larger groups of tasks.
 //:
 //: [Previous](@previous)  |  page 5 of 12  |  [Next: Functions Within Functions](@next)

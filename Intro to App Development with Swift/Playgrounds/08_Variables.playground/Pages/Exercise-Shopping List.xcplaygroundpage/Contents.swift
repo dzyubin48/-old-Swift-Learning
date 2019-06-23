@@ -23,5 +23,4 @@ list += newLine
 list += rice
 
 print(list)
-
 //: [Previous](@previous)  |  page 12 of 13  |  [Next: Exercise: 501](@next)

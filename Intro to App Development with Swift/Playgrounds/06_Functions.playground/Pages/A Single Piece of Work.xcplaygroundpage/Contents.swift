@@ -26,13 +26,11 @@ rowTheBoat()
  What happens if you call your function more than once?
 
 */
-// My code
 func myFunc() {
     print("Hello, World!")
 }
 
 myFunc()
-
 //: Next, learn about how to think about tasks and divide them up in a way that makes sense.
 //:
 //: [Previous](@previous)  |  page 4 of 12  |  [Next: Breaking It Down](@next)

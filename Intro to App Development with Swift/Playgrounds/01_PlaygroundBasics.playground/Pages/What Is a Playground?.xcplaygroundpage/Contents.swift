@@ -9,7 +9,6 @@
 //: For negative numbers use the minus sign:
 -1200321
 
-// My code
 345
 21
 0

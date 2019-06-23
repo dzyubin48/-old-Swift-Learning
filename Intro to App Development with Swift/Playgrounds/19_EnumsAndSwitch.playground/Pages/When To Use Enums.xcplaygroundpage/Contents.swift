@@ -22,7 +22,6 @@
  
  - callout(Exercise): Define enums to represent the team and position options. Check on the previous pages for a refresher on the syntax.
 */
-// My code
 enum Team {
     case red
     case blue
@@ -33,6 +32,5 @@ enum Position {
     case seeker
     case pitcher
 }
-
 //: On the next page, learn about comparing enums.\
 //: [Previous](@previous)  |  page 5 of 21  |  [Next: Comparing Enums](@next)

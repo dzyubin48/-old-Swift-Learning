@@ -20,4 +20,3 @@ favoriteThing = "42"
  
 [Previous](@previous)  |  page 4 of 13  |  [Next: Type Safety](@next)
 */
-

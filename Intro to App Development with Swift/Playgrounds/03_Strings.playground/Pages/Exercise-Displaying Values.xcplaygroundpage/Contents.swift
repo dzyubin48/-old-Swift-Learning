@@ -19,11 +19,6 @@ let alreadyCapacity = 3 * 1000
 let freeStorage = iPhoneCapacity - alreadyCapacity
 let videoRecordCapacity = freeStorage / 150
 let message = "You can record \(videoRecordCapacity) more minutes of video"
-
-
-
-
-
 /*:
  
  _Copyright © 2017 Apple Inc._

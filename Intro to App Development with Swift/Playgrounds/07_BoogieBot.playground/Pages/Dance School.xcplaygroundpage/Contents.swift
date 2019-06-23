@@ -44,7 +44,6 @@ jumpDown()
 leftArmDown()
 rightArmDown()
 defabulize()
-
 //: - experiment: Rearrange the lines of code above to remix the dance routine. BoogieBot performs the moves in the order they appear in the playground.\
 //:What happens if you fabulize or defabulize in the middle of a dance routine?
 //:

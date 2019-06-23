@@ -9,7 +9,6 @@ Create a second variable for `friendPlans`, but initialize it to `myPlans`. (You
 Below the declaration of `friendPlans`, update `myPlans` by using the addition operator `+` to add one more activity.\
 Check the values of `myPlans` and `friendPlans`. Are they the same or different?
  */
-// My code
 // Create your variables here:
 var myPlans = "Learn Swift"
 var friendPlans = myPlans
@@ -38,7 +37,6 @@ friendPlans
 // Check your guess by printing here:
 myPlans
 friendPlans
-
 /*:
  
  _Copyright © 2017 Apple Inc._

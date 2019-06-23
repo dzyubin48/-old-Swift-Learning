@@ -12,7 +12,6 @@
  *Hint: If you made any properties with custom types, you can create placeholder types that have empty implementations. (See the TrainingShoe code at the bottom of this page for an example.) The placeholder type below will make sure your playground can run without errors.*
  */
 // Add your own struct here:
-
 struct PC {
     let memory: Int
     let videocard: String
@@ -53,11 +52,6 @@ let newLaces = Shoelaces()
 
 // Use the instance of the placeholder type to create an instance of your new type
 let newShoe = TrainingShoe(size: 39, isTied: true, laces: newLaces)
-
-
-
-
-
 /*:
  
  _Copyright © 2017 Apple Inc._

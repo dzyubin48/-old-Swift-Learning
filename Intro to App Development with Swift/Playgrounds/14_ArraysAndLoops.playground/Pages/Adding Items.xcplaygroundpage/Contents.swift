@@ -18,10 +18,5 @@ list.append("First")
 list.insert("Second", at: 1)
 list += ["Third", "Fourth"]
 list
-
-
-
-
-
 //: Move on to find out how to remove items from an array.\
 //: [Previous](@previous)  |  page 9 of 17  |  [Next: Removing Items](@next)

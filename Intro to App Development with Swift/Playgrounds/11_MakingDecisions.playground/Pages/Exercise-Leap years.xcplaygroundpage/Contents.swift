@@ -14,8 +14,6 @@
  
  The `number(_:, isDivisibleBy:)` function has been built into this playground to make this exercise easier. Below is an incomplete function for deciding if a given year is a leap year:
 */
-// My code
-
 func isLeapYear(_ year: Int) -> Bool {
     if number(year, isDivisibleBy: 4) {
         if number(year, isDivisibleBy: 100) {

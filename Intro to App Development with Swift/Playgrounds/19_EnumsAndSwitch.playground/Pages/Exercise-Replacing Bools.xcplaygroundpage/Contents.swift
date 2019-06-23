@@ -9,7 +9,6 @@ struct Enemy {
     let speed: Int
     let weapon: WeaponType
 
-    // My code
     enum WeaponType {
         case none
         case sword

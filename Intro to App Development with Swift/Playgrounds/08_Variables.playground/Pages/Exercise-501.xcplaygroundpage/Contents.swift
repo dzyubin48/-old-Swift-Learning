@@ -20,7 +20,6 @@
  \
  After each round, `print` some statements that your opponents might make. If you can, use the value of your current score in their statements.
  */
-// My code
 let single = 1
 let double = 2
 let triple = 3

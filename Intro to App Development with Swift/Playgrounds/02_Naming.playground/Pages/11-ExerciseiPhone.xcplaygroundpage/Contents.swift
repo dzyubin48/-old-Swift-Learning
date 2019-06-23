@@ -15,7 +15,6 @@
  - callout(Exercise): How many minutes of video will it take to fill the phone?\
  _Hint_: Do all of your calculations in megabytes (MB).
 */
-// My code
 let storageCapacity = 8 * 1000
 
 let stuffCapacity = 3 * 1000
@@ -23,8 +22,4 @@ let stuffCapacity = 3 * 1000
 let minuteVideoCapacity = 150
 
 let videoCapacityOnIphone = (storageCapacity - stuffCapacity) / minuteVideoCapacity
-
-
-
-
 //:[Previous](@previous)  |  page 12 of 14  |  [Next: Exercise: Fixing Your Morning](@next)

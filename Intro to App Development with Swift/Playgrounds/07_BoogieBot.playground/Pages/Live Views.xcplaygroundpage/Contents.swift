@@ -8,7 +8,6 @@
  Before you get started, make sure your playground is set up to work with live views. The following line of code sets up BoogieBot and makes it dance:
 */
 runBoogieBotDemoMode()
-
 /*:
  The live view shows up in the **assistant editor** on the right. 👉
  

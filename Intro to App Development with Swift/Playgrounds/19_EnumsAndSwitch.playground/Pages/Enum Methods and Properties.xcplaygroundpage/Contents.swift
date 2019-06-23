@@ -49,7 +49,6 @@ enum Suit {
         return self.rank > otherSuit.rank
     }
 
-    // My code
     var emoj: String {
         switch self {
         case .spades:
@@ -70,7 +69,6 @@ oneSuit.beats(otherSuit)
 oneSuit.beats(oneSuit)
 oneSuit.emoj
 otherSuit.emoj
-
 /*:
  - experiment: Add a property to the Suit enum that returns the appropriate emoji for each case: ♠️❤️♦️♣️
 

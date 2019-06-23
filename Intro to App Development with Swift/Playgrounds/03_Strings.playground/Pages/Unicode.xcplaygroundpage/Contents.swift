@@ -5,13 +5,9 @@
 //: Strings in Swift are fully Unicode-compliant, so you can create strings that contain the text of different languages:
 //:
 let englishGreeting = "Hello, World!"
-
 let chineseGreeting = "你好，世界!"
-
 let spanishGreeting = "¡Hola Mundo!"
-
 let russianGreeting = "Привет мир!"
-
 let japaneseGreeting = "こんにちは世界!"
 //: Strings in different languages let you create apps that can be used by people around the world.
 //:

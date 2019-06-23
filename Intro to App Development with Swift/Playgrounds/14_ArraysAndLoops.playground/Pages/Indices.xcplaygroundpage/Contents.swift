@@ -12,7 +12,6 @@ let devices = ["iPhone", "iPad", "iPod", "iMac"]
 */
 // This gets the object at index 0
 devices[0]
-
 /*: 
  - experiment: Declare a constant `favoriteDevice` and set its value to “iPod” by using an index into the `devices` array.
  */
@@ -24,7 +23,5 @@ let favoriteDevice = devices[2]
  - experiment: Try to get the item at index `4` in the list. Open the console for more information about the error.
 */
 //let error = devices[4]
-
-
 //: Next find out how many values an array contains.\
 //: [Previous](@previous)  |  page 3 of 17  |  [Next: Count](@next)

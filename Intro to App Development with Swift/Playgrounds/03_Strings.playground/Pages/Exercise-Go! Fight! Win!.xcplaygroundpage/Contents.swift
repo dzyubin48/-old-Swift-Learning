@@ -15,14 +15,8 @@
  - note:
  Use the show result button to view the results of your work.
  */
-
-// My code
 let schoolName = "Tutu.ru"
 let refrain = "Go-go \(schoolName) Go-go!"
-
 let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
-
-
-
 //:
 //:[Previous](@previous)  |  page 15 of 16 |  [Next: Exercise: Displaying Values](@next)

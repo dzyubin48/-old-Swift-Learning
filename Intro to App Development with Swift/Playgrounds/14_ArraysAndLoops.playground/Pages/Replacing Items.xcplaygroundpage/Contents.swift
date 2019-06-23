@@ -13,11 +13,9 @@ let firstFlavor = flavors[0] // Remember, the first item is at index 0
  
  With a mutable array, you can use the subscript to set the value at an existing index, replacing the value that is already there:
  */
-
 flavors[0] = "Fudge Ripple"
 
 let newFirstFlavor = flavors[0]
-
 /*:
  - experiment: Change the value of "Pistachio" to a flavor of ice cream that’s not already used in the array, like “Mint Chocolate Chip.” Check the results sidebar to make sure you’ve made the change.
 */
@@ -28,6 +26,5 @@ flavors[3] = "Chocolate"
  - experiment: In the statement below, what’s the highest number you can set the subscript to without receiving an error. Why is that the highest number you can use?
 */
 flavors[1] = "Maple Walnut"
-
 //: Next, review what you’ve learned.\
 //: [Previous](@previous)  |  page 11 of 17  |  [Next: Wrapup](@next)

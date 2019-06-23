@@ -29,5 +29,4 @@ let profit = totalTakings - jackpot - totalExpenses
 // Distribution
 let programmersCut = profit / 10 // This is the answer you want to get over 100! 👉 
 let friendsCut = profit - programmersCut
-
 //:[Previous](@previous)  |  page 11 of 14  |  [Next: Exercise: What Fits on Your iPhone?](@next)

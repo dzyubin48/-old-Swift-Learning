@@ -21,10 +21,7 @@ let ttl = to + tw
 let es = ttl / 2
 let lhso = es / ow
 let rhso = co - lhso
-
-
 //: - experiment: Rewrite the code so that it makes sense without needing a note. Use meaningful names and comments.
-// My code
 let capacityOrange = 14
 let capacityWatermelons = 3
 let orangesWeigh = 100
@@ -37,10 +34,6 @@ let leftSide = eachSide / orangesWeigh
 let rightSide = capacityOrange - leftSide
 
 // Сложновато понять что они имели ввиде за той или иной буквой -_-
-
-
-
-
 /*:
  
  _Copyright © 2017 Apple Inc._

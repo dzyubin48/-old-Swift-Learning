@@ -23,7 +23,6 @@ introduction.hasPrefix("It wasn't")
 
 alternateIntroduction.hasPrefix("It was")
 alternateIntroduction.hasPrefix("It wasn't")
-
 /*:
  This is known as calling a method _on_ the instance. You’ve called `hasPrefix()` on `introduction`.
  

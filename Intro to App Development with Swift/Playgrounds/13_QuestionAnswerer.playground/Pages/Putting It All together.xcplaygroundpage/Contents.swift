@@ -2,7 +2,6 @@
  ## Putting It All Together
  - callout(Exercise): In this final exercise you’ll combine the things you’ve learned over the last few pages. Update this `responseToQuestion` function so that it gives the answers specified below. It’s OK to go back and look and code from earlier pages.
 */
-// My code
 func responseTo(question: String) -> String {
 
     let lowerQuestion = question.lowercased()
@@ -41,7 +40,6 @@ responseTo(question: "Where are the cookies?")
 responseTo(question: "Can I have a cookie?")
 responseTo(question: "CAN I HAVE A COOKIE?!?")
 responseTo(question: "Should I go?")
-
 /*:
  - note:
  You'll be cutting and pasting the body of the `responseToQuestion` function above. When you highlight it to copy over, your function body will be different, but it'll look something like this:\

@@ -3,12 +3,9 @@
 let heightInCentimeters = 7817
 //: To declare a string constant, you put text between quotation marks like this:
 let favoriteBook = "The Sun Also Rises"
-
 let traditionalGreeting = "Hello, world!"
 //: The declared string values also appear in the results sidebar. 👉
 //: - experiment: Practice by declaring `favoriteMovie` and `favoriteSong` string constants for your favorite movie and song:
-// My code
-
 // Declare a favoriteMovie constant
 let favoriteMovie = "Avengers: Infinity War"
 

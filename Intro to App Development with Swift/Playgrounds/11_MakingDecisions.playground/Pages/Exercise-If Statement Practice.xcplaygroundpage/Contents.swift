@@ -7,8 +7,6 @@ let a = 20
 let b = 30
 let c = 20
 
-// My code
-
 // If a is equal to c, print "a and c are the same"
 if a == c {
     print("a and c are the same")

@@ -5,7 +5,6 @@
 "swift programming".hasPrefix("swift")
 "swift programming".hasPrefix("programming")
 //: - callout(Exercise): Amend the function and tests below to respond to different first words. How about adding answers for who, what, why, and how questions?
-// My code
 func responseTo(question: String) -> String {
     
     if question.hasPrefix("hello") {

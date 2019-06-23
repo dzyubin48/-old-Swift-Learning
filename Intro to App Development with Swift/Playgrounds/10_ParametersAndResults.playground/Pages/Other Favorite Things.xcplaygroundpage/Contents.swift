@@ -12,7 +12,6 @@
  - callout(Exercise): Put the print statement above inside a function that allows you to pass in one string for the category of thing, and another string for your favorite. When you call the function, it should look like this:\
  `printFavorite(categoryOfThing: "food", favorite: "cheese")`
 */
-// My code
 func printFavorite(categoryOfThing: String, favorite: String) {
     print("My favorite \(categoryOfThing) is \(favorite)")
 }

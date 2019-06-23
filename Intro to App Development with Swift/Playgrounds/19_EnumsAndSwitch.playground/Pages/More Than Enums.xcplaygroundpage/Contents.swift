@@ -34,10 +34,6 @@ soundFor(animal: "human")
 Add a few more animal cases to the switch statement and call the function to test the new cases.
  */
 
-
-
-
-
 /*:
 Next revisit the cafeteria example using a switch statement.
  

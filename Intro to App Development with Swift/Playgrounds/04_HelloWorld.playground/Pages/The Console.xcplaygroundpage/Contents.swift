@@ -18,10 +18,8 @@
  To adjust the height of the console, you can drag the bar at the top of the console up and down.
    ![Animation of console being shown and hidden with buttons](show-hide-console.mov)
  */
-
- let charactersRemaining = 140 - 97
- let micTest = "Is this thing on?"
-
+let charactersRemaining = 140 - 97
+let micTest = "Is this thing on?"
 /*:
  Even though the code above ran, you’ve received no feedback. The console is empty because it only displays messages when a programmer gives the instruction to print.
  

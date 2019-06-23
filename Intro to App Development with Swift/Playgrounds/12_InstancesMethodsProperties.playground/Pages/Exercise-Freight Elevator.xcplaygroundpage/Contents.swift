@@ -9,14 +9,11 @@
 let sherlock = 50
 let food = 110
 let bigOne = 10000
-
-
 /*:
  - callout(Exercise):
  A lightweight treehouse pulley is already created below. But you've decided that you want to be able to lift, say, a small horse or piano up to your fort, so you’re installing a second pulley with a much bigger basket.\
  Create a second pulley that has a higher capacity and can hold at least ten times the weight of the `ricketyRope`.
  */
-// My code
 var ricketyRope = TreehousePulley(weightCapacity: 200)
 var bigRicketyRope = TreehousePulley(weightCapacity: 2000)
 

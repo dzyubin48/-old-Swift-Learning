@@ -29,7 +29,6 @@
 1 >= 2
 2 >= 2
 3 >= 2
-
 /*:
  Check the results sidebar to see the outcomes of these comparisons 👉.
 
@@ -39,8 +38,6 @@
 
  - callout(Exercise): Practice writing out some comparison statements of your own. What happens if you try to compare non-integer types, like doubles or strings?
 */
-// My code
-
 1.2 == 1.2
 1.0 == 1
 15 < 41

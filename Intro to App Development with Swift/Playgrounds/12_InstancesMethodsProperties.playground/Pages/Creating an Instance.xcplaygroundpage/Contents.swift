@@ -8,7 +8,6 @@ import Foundation
 let literalString = "Howdy!"
 let literalBool = false
 let literalInt = 84
-
 let rightNow = Date()
 /*:
 `Date()` looks a lot like a function, but with an important difference: It uses a type name instead of a name beginning with a lowercase letter.

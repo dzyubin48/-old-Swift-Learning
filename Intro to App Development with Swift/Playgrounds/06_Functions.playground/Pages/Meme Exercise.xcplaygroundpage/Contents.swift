@@ -9,7 +9,6 @@
  
  Write out the song or meme using `print` statements, then look for patterns and repetition and choose groups of lines to combine into functions. This is a free-form exercise, so you can do whatever you like.
 */
-// My code
 func firstLine() {
     print("Over and over")
 }

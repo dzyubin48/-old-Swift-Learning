@@ -12,7 +12,6 @@ let newline = "Making new lines"
 /*:
  - experiment: Make a new string constant that is a list of the things you’ve learned, with each entry on a new line. Make sure you add the result to the playground page so that you can see the list properly.
  */
-// My code
 let fullLesson = "Just words " + unicode + ", interpolation \(unicode), and escape \"Something\"\nHey, it's new line!"
 //:
 //:[Previous](@previous)  |  page 13 of 16  |  [Next: Exercise: A Restaurant](@next)

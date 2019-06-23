@@ -16,7 +16,6 @@
  `setBotTitle("My Awesome Dance")`\
  `setBotSubtitle("By The Boogiemaster")`
  */
-// My code
 func leftArmMoves() {
     leftArmUp()
     leftArmDown()
@@ -66,7 +65,6 @@ func rightDance() {
     rightArmMoves()
 }
 
-
 startBot()
 startRecording()
 
@@ -77,14 +75,6 @@ fabulize()
 leftDance()
 rightDance()
 defabulizeJump()
-
-
-
-
-
-
-
-
 /*:
  
  _Copyright © 2017 Apple Inc._

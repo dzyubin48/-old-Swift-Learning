@@ -7,7 +7,6 @@
 */
 chickens
 //:  The chickens are all hatched, so it’s safe to count them.
-// My code
 var chickenOfInterestCount = 0
 for chicken in chickens {
     if (chicken.temper == .hilarious) || (chicken.breed == .leghorn) {

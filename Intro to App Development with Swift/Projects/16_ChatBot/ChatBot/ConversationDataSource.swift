@@ -1,5 +1,3 @@
-// My code
-
 import Foundation
 
 class ConversationDataSource {

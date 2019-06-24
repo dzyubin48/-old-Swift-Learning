@@ -15,7 +15,14 @@ struct Note {
         case important
     }
 
-    init(uid: String = UUID().uuidString, color: UIColor = .white) {
+    init(
+        uid: String = UUID().uuidString,
+        title: String,
+        content: String,
+        color: UIColor = .white,
+        importance: Importance,
+        selfDestructionDate: Date? = nil
+        ) {
         self.uid = uid
         self.color = color
     }

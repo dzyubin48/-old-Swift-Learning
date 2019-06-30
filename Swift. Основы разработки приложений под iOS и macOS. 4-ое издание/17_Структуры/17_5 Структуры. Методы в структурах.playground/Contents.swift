@@ -45,5 +45,3 @@ whiteBishop.setCoordinates(char: "А", num: 1)
 print(whiteBishop.coordinates as Any)
 whiteBishop.kill()
 print(whiteBishop.coordinates as Any)
-
-
